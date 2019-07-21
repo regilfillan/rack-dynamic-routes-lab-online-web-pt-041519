@@ -1,3 +1,3 @@
 class Application
   
-  @@items= [Item.new]
+  @@items= [Item.new("Apples",5.23), ]
