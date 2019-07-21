@@ -11,6 +11,7 @@ class Application
       if item= @@items.find {|i| i.name= item_name}
         resp.write item.price
       else 
+        resp.status= 400
         
   end
   
